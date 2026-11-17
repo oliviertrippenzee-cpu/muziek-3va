@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111326">
+  <title>Leren voor muziek 3vA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-icon">♫</span><div><strong>Leren voor muziek</strong><small>3vA • muziektheorie</small></div></div>
+      <nav id="nav">
+        <button class="nav-item active" data-page="home">⌂ <span>Startpagina</span></button>
+        <button class="nav-item" data-page="theory">▤ <span>Theorie</span></button>
+        <button class="nav-item" data-page="practice">✦ <span>Alle oefeningen</span></button>
+        <button class="nav-item" data-page="rhythm">♬ <span>Ritme oefenen</span></button>
+        <button class="nav-item" data-page="listen">♫ <span>Ritme luisteren</span></button>
+        <button class="nav-item" data-page="perform">◉ <span>Ritme uitvoeren</span></button>
+        <button class="nav-item" data-page="notes">𝄞 <span>Noten lezen</span></button>
+        <button class="nav-item" data-page="piano">▥ <span>Piano oefenen</span></button>
+        <button class="nav-item" data-page="progress">▦ <span>Voortgang</span></button>
+      </nav>
+      <div class="sidebar-bottom"><div class="mini-level"><span>JOUW LEVEL</span><b id="sideLevel">1</b></div><div class="xp-track"><i id="sideXp"></i></div><small id="sideXpText">0 / 100 XP</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><button id="mobileMenu" class="mobile-menu">☰</button><div><span class="eyebrow">MUZIEKTHEORIE • 3 VWO</span><h1 id="pageTitle">Welkom terug!</h1></div><div class="top-stats"><div class="stat-pill">⚡ <b id="xpTop">0</b><small>XP</small></div><div class="stat-pill">🏆 <b id="levelTop">1</b><small>level</small></div></div></header>
+      <section id="view" class="view"></section>
+      <footer>Gemaakt om te oefenen • Je voortgang wordt op deze computer opgeslagen</footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
